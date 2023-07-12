@@ -44,158 +44,125 @@ text-decoration: none;
 }
 
 
-.header-link{
-    
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--background-color);
-}
 
-.header-link-second:hover{
-    color:var(--color-ocean);
+/* __________________________________________HEADER____________________ */
+.header-logo{
+    font-family:"Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-nb);
 }
-.header-link-second:focus{
-    color: var(--color-ocean);
+.header-logo-second{
+    color: var(--background-color);
+}    
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
 }
 .header-link:hover{
-   color: var(--color-ocean);
+    color: var(--color-ocean);
 }
 .header-link:focus{
     color: var(--color-ocean);
 }
-.header-logo{
-    
- font-family: 'Raleway', sans-serif; 
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--color-nb);
-}
-
-.header-logo-second{
-color:var(--background-color);
-}
-.header-link-second{
-color: #434455;
-}
-.contacta{
+.contacts{
     font-style: normal;
 }
-
-
-
-.advice{
-    border-color: var(--background-color);
+.header-link-second{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-b);
 }
+.header-link-second:hover{
+    color: var(--color-ocean);
+}
+.header-link-second:focus{
+    color: var(--color-ocean);
+}
+/* ----------------------SECTION 1----------------------------------- */
+.advice{ background-color: var(--background-color);
+}
+
 .benefit{
-   
-    font-family: 'Roboto';
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em; 
-    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--color-button-white);
+
 }
 .btn{
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-background-color: #4D5AE5;
-color: #FFFFFF;
+    background-color: var(--color-nb);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--color-button-white);
+    cursor: pointer;
 }
-
 .btn:hover{
-background-color: var(--color-ocean);
+    background-color:var(--color-ocean);
 }
 .btn:focus{
- background-color: var(--color-ocean); 
+    background-color:var(--color-ocean);
 }
 
+/* ---------------------------------SECTION 2----------------------------- */
+
 .hero-title{
- font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--background-color);
 }
-
- .hero-title-third{
-margin-bottom: 72px;
-font-family: 'Roboto';     
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize ;
-color:var(--background-color);    
-    }
-
 .hero-p{
- font-family: 'Roboto';
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--color-b);
 }
 
-
-
-.photo-title{
-    
-    font-family: 'Roboto';
+/* --------------------------------------SECTION 3------------------------------------- */
+.title-about{
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize ;
-    color:var(--background-color);  
+    text-transform: capitalize;
+    color: var(--background-color);
 }
 
 
-
-.our-team{
-     background-color:#F4F4FD;   
-   
-    }
-
+/* ---------------------------------------SECTION 4------------------------------------------- */
+.our-team {
+    background-color:var(--background-color-sec);
+}
+.icon{
+    background-color: var(--color-button-white)
+}
 .title-team{
-     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--background-color);
-
-    
-}
-
-   
-   .icon{
-        background-color: var(--color-button-white);
-        
-   }
+    }
     .ot-p{
-        font-family: 'Roboto';
-       font-style: normal;
-       font-weight: 400;
-       font-size: 16px;
-       line-height: 1.5;
-       letter-spacing: 0.02em;
-       color: #434455;
-       margin-bottom: 8px;
-       }
-       
-
-
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-b);
+    }
+/* ------------------------------------------------------------FOOTER---------------------------------------- */
     .footer{
      background-color: var(--background-color);
       }
