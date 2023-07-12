@@ -11,8 +11,6 @@
 }
 
 body{
-    margin: 0px;
-    padding:0px;
     font-family: "Roboto", sans-serif;
     color: var(--color-b);
     background-color: var(--color-button-white);
@@ -39,8 +37,11 @@ ol {
 
 .list{
     list-style: none;
-}
+}    
 
+.link{
+text-decoration: none;    
+}
 
 
 .header-link{
@@ -80,28 +81,17 @@ color:var(--color-nb);
 color:var(--background-color);
 }
 .header-link-second{
- font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
-.header-list{
-    list-style: none;
-}
-.header-list-second{
-    list-style: none;
-}
-.link{
-    text-decoration: none;
-}
-.list{
-    list-style: none;
+.contacta{
+    font-style: normal;
 }
 
 
+
+.advice{
+    border-color: var(--background-color);
+}
 .benefit{
    
     font-family: 'Roboto';
