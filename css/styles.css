@@ -323,7 +323,7 @@ text-align: center;
     text-transform: uppercase;
    
 }
-.footer-logo-second{display: inline-block;
+.footer-logo-second{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -345,60 +345,6 @@ text-align: center;
 
 /* ПОРТФОЛІО */
 
-
-
- /* .c-portfolio {
-    display: flex;
-     justify-content: center;
-     width: 1158px;
-     gap: 24px;
- }
-
-    .portfolio-btn:hover{
-       color: var(--color-button-white); 
-       background-color: var(--color-ocean);
-    border: 1px solid transparent;
-    }
-    .portfolio-btn:focus{
-    border: 1px solid transparent;
-       color: var(--color-button-white);
-       background-color: var(--color-ocean);
-    }
-    .portfolio-btn{
- font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color:var(--color-nb);
-background-color: var(--background-color-sec);
-cursor: pointer;
-padding: 12px 24px;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    } 
-   
-   
- .portfolio-title{
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--background-color);
-    }
-    .portfolio-p{
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:var(--color-b);
-margin-bottom: 8px;
-    }
-  
-  */
 .portfolio-button{
     padding-top: 96px;
     padding-bottom: 120px;
