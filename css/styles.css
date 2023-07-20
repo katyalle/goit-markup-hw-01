@@ -283,11 +283,7 @@ margin-bottom: 8px;
 text-align: center;
 
     }
-   .team-photo {
-     display: flex;
-     align-items: center;
-     gap: 24px;
-   }
+
      .icon {
     background-color: var(--color-button-white);
     border-radius: 0px 0px 4px 4px;
